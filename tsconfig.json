@@ -6,8 +6,11 @@
     "declaration": true,
     "outDir": "dist",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declarationDir": "dist"
   },
+  "include": ["src/**/*"],
   "exclude": [
     "node_modules",
     "dist"
